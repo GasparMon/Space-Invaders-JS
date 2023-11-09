@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0px;
+  margin: 0px;
+  height: 100vh;
+  background-image: url(images/background.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 100px;
+  font-family: "Comfortaa", sans-serif;
+  font-family: "Onest", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Pixelify Sans", sans-serif;
+  padding: 20px;
+  margin: 10px;
+  color: white;
+  text-shadow: 5px 5px 8px rgb(217, 0, 255);
+}
+
+canvas {
+
+  border-top: 10px double rgb(21,66,92); /* Borde superior */
+  border-left: 10px double rgb(21,66,92); /* Borde izquierdo */
+  border-right: 10px double rgb(21,66,92); /* Borde derecho con color diferente (rojo en este ejemplo) */
+  border-bottom: 10px double rgb(21,66,92);
+  border-style:double;
+}
