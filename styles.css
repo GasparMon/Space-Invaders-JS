@@ -35,4 +35,5 @@ canvas {
   border-right: 10px double rgb(21,66,92); /* Borde derecho con color diferente (rojo en este ejemplo) */
   border-bottom: 10px double rgb(21,66,92);
   border-style:double;
+  background-image: url(images/space.png);
 }
